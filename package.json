@@ -1,0 +1,26 @@
+{
+  "name": "typescript-basic-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "tsc-watch --onSuccess \"node dist/index.js\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jamezrin/typescript-basic-template.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jamezrin/typescript-basic-template/issues"
+  },
+  "homepage": "https://github.com/jamezrin/typescript-basic-template#readme",
+  "devDependencies": {
+    "@types/node": "^17.0.35",
+    "tsc-watch": "^5.0.3",
+    "typescript": "^4.7.2"
+  }
+}
